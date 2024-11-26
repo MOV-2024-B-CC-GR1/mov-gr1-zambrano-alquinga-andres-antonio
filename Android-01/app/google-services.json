@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "155723827297",
+    "project_id": "cc-2024b-mov-gr1-aaza",
+    "storage_bucket": "cc-2024b-mov-gr1-aaza.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155723827297:android:2c8ea7897f74b738c68220",
+        "android_client_info": {
+          "package_name": "com.example.ccgr12024b_aaza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa6ohKbTPFiuf6B_aSoebU1fmBvfEpY-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
