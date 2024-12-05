@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="saludo">LANDSCAPE EN - C01</string>
-    <color name="amarillo">#FFFF00</color>
-    <color name="fondo">#0000FF</color>
+    <color name="text_color">#FFFF00</color>
+    <color name="background_color">#0000FF</color>
 </resources>
