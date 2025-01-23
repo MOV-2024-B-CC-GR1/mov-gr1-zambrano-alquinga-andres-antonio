@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ccgr12024b_aaza</string>
+    <string name="gcm_defaultSenderId" translatable="false">155723827297</string>
+    <string name="google_api_key" translatable="false">AIzaSyCa6ohKbTPFiuf6B_aSoebU1fmBvfEpY-Y</string>
+    <string name="google_app_id" translatable="false">1:155723827297:android:2c8ea7897f74b738c68220</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCa6ohKbTPFiuf6B_aSoebU1fmBvfEpY-Y</string>
+    <string name="google_storage_bucket" translatable="false">cc-2024b-mov-gr1-aaza.firebasestorage.app</string>
+    <string name="project_id" translatable="false">cc-2024b-mov-gr1-aaza</string>
+    <string name="saludo">Buenas tardes con todos!!!</string>
+    <style name="Base.Theme.Ccgr12024b_aaza" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Ccgr12024b_aaza" parent="Base.Theme.Ccgr12024b_aaza"/>
+</resources>

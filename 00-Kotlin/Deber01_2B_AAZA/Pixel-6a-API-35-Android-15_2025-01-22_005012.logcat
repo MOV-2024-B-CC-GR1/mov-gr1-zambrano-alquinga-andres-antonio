@@ -1,0 +1,4838 @@
+{
+  "metadata": {
+    "device": {
+      "deviceId": "Pixel_6a_API_35",
+      "name": "Pixel 6a API 35",
+      "serialNumber": "emulator-5554",
+      "isOnline": true,
+      "release": "15",
+      "sdk": 35,
+      "featureLevel": 35,
+      "model": "",
+      "type": "HANDHELD",
+      "isEmulator": true
+    },
+    "filter": "",
+    "projectApplicationIds": [
+      "com.example.deber01_2b_aaza",
+      "com.example.deber01_2b_aaza.test"
+    ]
+  },
+  "logcatMessages": [
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 642,
+        "tid": 1544,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "TaskPersister",
+        "timestamp": {
+          "seconds": 1737524959,
+          "nanos": 167000000
+        }
+      },
+      "message": "File error accessing recents directory (directory doesn\u0027t exist?)."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 933,
+        "tid": 1153,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1737524960,
+          "nanos": 155000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d824.61ms min\u003d14.61ms max\u003d8100.11ms count\u003d10"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 914,
+        "tid": 914,
+        "applicationId": "pid-914",
+        "processName": "pid-914",
+        "tag": "wpa_supplicant",
+        "timestamp": {
+          "seconds": 1737524960,
+          "nanos": 257000000
+        }
+      },
+      "message": "wlan0: CTRL-EVENT-BEACON-LOSS "
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 642,
+        "tid": 902,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "androidtc",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 260000000
+        }
+      },
+      "message": "Initializing SystemTextClassifier, type \u003d System"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1495,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 261000000
+        }
+      },
+      "message": "onCreateTextClassificationSession \u003d TextClassificationSessionId {93d41719-0aac-4c62-83c7-b17d5ceb0909}"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 642,
+        "tid": 902,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ClipboardService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 261000000
+        }
+      },
+      "message": "Denying clipboard access to com.android.chrome, application is not in focus nor is it a system service for user 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1802,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiTranslate",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 262000000
+        }
+      },
+      "message": "C2T - not in a conversation"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 933,
+        "tid": 933,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 262000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1831,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 264000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 642,
+        "tid": 903,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ClipboardService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 265000000
+        }
+      },
+      "message": "Denying clipboard access to com.android.chrome, application is not in focus nor is it a system service for user 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1831,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiTextClassifier",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 266000000
+        }
+      },
+      "message": "GenerateLinks did not find valid links, returning empty result"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 933,
+        "tid": 933,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "ClipboardListener",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 267000000
+        }
+      },
+      "message": "Clipboard overlay suppressed."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 414,
+        "tid": 6351,
+        "applicationId": "pid-414",
+        "processName": "pid-414",
+        "tag": "audioserver",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 338000000
+        }
+      },
+      "message": "logFgsApiBegin: FGS Logger Transaction failed, -129"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1636,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 338000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d355.24ms min\u003d1.50ms max\u003d4950.18ms count\u003d14"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1917,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "AS.PlaybackActivityMon",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 338000000
+        }
+      },
+      "message": "No piid assigned for invalid/internal port id 15"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 414,
+        "tid": 556,
+        "applicationId": "pid-414",
+        "processName": "pid-414",
+        "tag": "AudioFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 340000000
+        }
+      },
+      "message": "mixer(0x76416ad498e0) throttle end: throttle time(35)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1205,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "OptProp",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 340000000
+        }
+      },
+      "message": "Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1205,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "OptProp",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 340000000
+        }
+      },
+      "message": "Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1205,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "OptProp",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 341000000
+        }
+      },
+      "message": "Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 1205,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "GrammaticalInflectionUtils",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 341000000
+        }
+      },
+      "message": "AttributionSource: android.content.AttributionSource@a4caa467 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1205,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "OptProp",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 341000000
+        }
+      },
+      "message": "Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1205,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "OptProp",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 341000000
+        }
+      },
+      "message": "Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 346000000
+        }
+      },
+      "message": "Transition requested (#113): android.os.BinderProxy@584e49b TransitionRequestInfo { type \u003d OPEN, triggerTask \u003d TaskInfo{userId\u003d0 taskId\u003d53 displayId\u003d0 isRunning\u003dtrue baseIntent\u003dIntent { act\u003dandroid.intent.action.MAIN cat\u003d[android.intent.category.LAUNCHER] flg\u003d0x10200000 cmp\u003dcom.example.deber01_2b_aaza/.MainActivity } baseActivity\u003dComponentInfo{com.example.deber01_2b_aaza/com.example.deber01_2b_aaza.MainActivity} topActivity\u003dComponentInfo{com.example.deber01_2b_aaza/com.example.deber01_2b_aaza.MainActivity} origActivity\u003dnull realActivity\u003dComponentInfo{com.example.deber01_2b_aaza/com.example.deber01_2b_aaza.MainActivity} numActivities\u003d1 lastActiveTime\u003d6650909 supportsMultiWindow\u003dtrue resizeMode\u003d1 isResizeable\u003dtrue minWidth\u003d-1 minHeight\u003d-1 defaultMinSize\u003d220 token\u003dWCT{android.window.IWindowContainerToken$Stub$Proxy@21ec038} topActivityType\u003d1 pictureInPictureParams\u003dnull shouldDockBigOverlays\u003dfalse launchIntoPipHostTaskId\u003d-1 lastParentTaskIdBeforePip\u003d-1 displayCutoutSafeInsets\u003dRect(0, 132 - 0, 0) topActivityInfo\u003dActivityInfo{8f91811 com.example.deber01_2b_aaza.MainActivity} launchCookies\u003d[android.os.BinderProxy@58a9d76] positionInParent\u003dPoint(0, 0) parentTaskId\u003d-1 isFocused\u003dfalse isVisible\u003dfalse isVisibleRequested\u003dfalse isSleeping\u003dfalse locusId\u003dnull displayAreaFeatureId\u003d1 isTopActivityTransparent\u003dfalse appCompatTaskInfo\u003dAppCompatTaskInfo { topActivityInSizeCompat\u003dfalse topActivityEligibleForLetterboxEducation\u003d falseisLetterboxEducationEnabled\u003d true isLetterboxDoubleTapEnabled\u003d false topActivityEligibleForUserAspectRatioButton\u003d false topActivityBoundsLetterboxed\u003d false isFromLetterboxDoubleTap\u003d false topActivityLetterboxVerticalPosition\u003d -1 topActivityLetterboxHorizontalPosition\u003d -1 topActivityLetterboxWidth\u003d1080 topActivityLetterboxHeight\u003d2400 isUserFullscreenOverrideEnabled\u003dfalse isSystemFullscreenOverrideEnabled\u003dfalse cameraCompatTaskInfo\u003dCameraCompatTaskInfo { cameraCompatControlState\u003dhidden freeformCameraCompatMode\u003dinactive}}}, pipTask \u003d null, remoteTransition \u003d RemoteTransition { remoteTransition \u003d android.window.IRemoteTransition$Stub$Proxy@7432f77, appThread \u003d android.app.IApplicationThread$Stub$Proxy@d1ba7e4, debugName \u003d QuickstepLaunch }, displayChange \u003d null, flags \u003d 0, debugId \u003d 113 }"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 346000000
+        }
+      },
+      "message": "RemoteTransition directly requested for (#113) android.os.BinderProxy@584e49b: RemoteTransition { remoteTransition \u003d android.window.IRemoteTransition$Stub$Proxy@7432f77, appThread \u003d android.app.IApplicationThread$Stub$Proxy@d1ba7e4, debugName \u003d QuickstepLaunch }"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 642,
+        "tid": 1205,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ActivityTaskManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 346000000
+        }
+      },
+      "message": "START u0 {act\u003dandroid.intent.action.MAIN cat\u003d[android.intent.category.LAUNCHER] flg\u003d0x10200000 cmp\u003dcom.example.deber01_2b_aaza/.MainActivity bnds\u003d[540,762][787,1077]} with LAUNCH_MULTIPLE from uid 10176 (BAL_ALLOW_VISIBLE_WINDOW) result code\u003d0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "StatsLog",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 347000000
+        }
+      },
+      "message": "LAUNCHER_APP_LAUNCH_TAP"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "StatsLog",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 347000000
+        }
+      },
+      "message": "LAUNCHER_HOTSEAT_RANKED"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 642,
+        "tid": 1637,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 348000000
+        }
+      },
+      "message": "PendingStartActivityUids startActivity to updateOomAdj delay:5098ms, uid:10176"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 680,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "GrammaticalInflectionUtils",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 348000000
+        }
+      },
+      "message": "AttributionSource: android.content.AttributionSource@a4caa467 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1303,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "QuickstepModelDelegate",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 349000000
+        }
+      },
+      "message": "notifyAppTargetEvent action\u003d1 launchLocation\u003dall-apps"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 353000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d312"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "BpBinder",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 353000000
+        }
+      },
+      "message": "onLastStrongRef automatically unlinking death recipients: "
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 642,
+        "tid": 1205,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "CoreBackPreview",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 354000000
+        }
+      },
+      "message": "Window{89d965e u0 Splash Screen com.example.deber01_2b_aaza}: Setting back callback OnBackInvokedCallbackInfo{mCallback\u003dandroid.window.IOnBackInvokedCallback$Stub$Proxy@4c28055, mPriority\u003d0, mIsAnimationCallback\u003dfalse}"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SplitSelectStateCtor",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 357000000
+        }
+      },
+      "message": "Missing session instanceIds"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "StatsLog",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 357000000
+        }
+      },
+      "message": "LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 373,
+        "tid": 373,
+        "applicationId": "pid-373",
+        "processName": "pid-373",
+        "tag": "Zygote",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 361000000
+        }
+      },
+      "message": "Forked child process 9051"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "TopTaskTracker",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 361000000
+        }
+      },
+      "message": "onTaskMovedToFront: (moved taskInfo to front) taskId\u003d53, baseIntent\u003dIntent { act\u003dandroid.intent.action.MAIN cat\u003d[android.intent.category.LAUNCHER] flg\u003d0x10200000 cmp\u003dcom.example.deber01_2b_aaza/.MainActivity }"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 642,
+        "tid": 690,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 364000000
+        }
+      },
+      "message": "Start proc 9051:com.example.deber01_2b_aaza/u0a210 for next-top-activity {com.example.deber01_2b_aaza/com.example.deber01_2b_aaza.MainActivity}"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "deber01_2b_aaza",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 365000000
+        }
+      },
+      "message": "Late-enabling -Xcheck:jni"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 369000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d313"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 386000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d314"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "deber01_2b_aaza",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 387000000
+        }
+      },
+      "message": "Using CollectorTypeCMC GC."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "deber01_2b_aaza",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 388000000
+        }
+      },
+      "message": "Unexpected CPU variant for x86: x86_64.\nKnown variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, default"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 444,
+        "tid": 472,
+        "applicationId": "pid-444",
+        "processName": "pid-444",
+        "tag": "adbd",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 391000000
+        }
+      },
+      "message": "jdwp connection from 9051"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "nativeloader",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 397000000
+        }
+      },
+      "message": "Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 2415,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 411000000
+        }
+      },
+      "message": "onTransitionReady(transaction\u003d2757369008187)"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 677,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 411000000
+        }
+      },
+      "message": "Sent Transition (#113) createdAt\u003d01-22 05:49:21.341 via request\u003dTransitionRequestInfo { type \u003d OPEN, triggerTask \u003d TaskInfo{userId\u003d0 taskId\u003d53 displayId\u003d0 isRunning\u003dtrue baseIntent\u003dIntent { act\u003dandroid.intent.action.MAIN cat\u003d[android.intent.category.LAUNCHER] flg\u003d0x10200000 cmp\u003dcom.example.deber01_2b_aaza/.MainActivity } baseActivity\u003dComponentInfo{com.example.deber01_2b_aaza/com.example.deber01_2b_aaza.MainActivity} topActivity\u003dComponentInfo{com.example.deber01_2b_aaza/com.example.deber01_2b_aaza.MainActivity} origActivity\u003dnull realActivity\u003dComponentInfo{com.example.deber01_2b_aaza/com.example.deber01_2b_aaza.MainActivity} numActivities\u003d1 lastActiveTime\u003d6650909 supportsMultiWindow\u003dtrue resizeMode\u003d1 isResizeable\u003dtrue minWidth\u003d-1 minHeight\u003d-1 defaultMinSize\u003d220 token\u003dWCT{RemoteToken{901336 Task{610db12 #53 type\u003dstandard A\u003d10210:com.example.deber01_2b_aaza}}} topActivityType\u003d1 pictureInPictureParams\u003dnull shouldDockBigOverlays\u003dfalse launchIntoPipHostTaskId\u003d-1 lastParentTaskIdBeforePip\u003d-1 displayCutoutSafeInsets\u003dRect(0, 132 - 0, 0) topActivityInfo\u003dActivityInfo{4f6d237 com.example.deber01_2b_aaza.MainActivity} launchCookies\u003d[android.os.BinderProxy@eae73a4] positionInParent\u003dPoint(0, 0) parentTaskId\u003d-1 isFocused\u003dfalse isVisible\u003dfalse isVisibleRequested\u003dfalse isSleeping\u003dfalse locusId\u003dnull displayAreaFeatureId\u003d1 isTopActivityTransparent\u003dfalse appCompatTaskInfo\u003dAppCompatTaskInfo { topActivityInSizeCompat\u003dfalse topActivityEligibleForLetterboxEducation\u003d falseisLetterboxEducationEnabled\u003d true isLetterboxDoubleTapEnabled\u003d false topActivityEligibleForUserAspectRatioButton\u003d false topActivityBoundsLetterboxed\u003d false isFromLetterboxDoubleTap\u003d false topActivityLetterboxVerticalPosition\u003d -1 topActivityLetterboxHorizontalPosition\u003d -1 topActivityLetterboxWidth\u003d1080 topActivityLetterboxHeight\u003d2400 isUserFullscreenOverrideEnabled\u003dfalse isSystemFullscreenOverrideEnabled\u003dfalse cameraCompatTaskInfo\u003dCameraCompatTaskInfo { cameraCompatControlState\u003dhidden freeformCameraCompatMode\u003dinactive}}}, pipTask \u003d null, remoteTransition \u003d RemoteTransition { remoteTransition \u003d android.window.IRemoteTransition$Stub$Proxy@c5b650d, appThread \u003d android.app.IApplicationThread$Stub$Proxy@c22cc2, debugName \u003d QuickstepLaunch }, displayChange \u003d null, flags \u003d 0, debugId \u003d 113 }"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 677,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 411000000
+        }
+      },
+      "message": "    startWCT\u003dWindowContainerTransaction { changes \u003d {} hops \u003d [] errorCallbackToken\u003dnull taskFragmentOrganizer\u003dnull }"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 677,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 411000000
+        }
+      },
+      "message": "    info\u003d{id\u003d113 t\u003dOPEN f\u003d0x0 trk\u003d0 r\u003d[0@Point(0, 0)] c\u003d[\n        {WCT{RemoteToken{901336 Task{610db12 #53 type\u003dstandard A\u003d10210:com.example.deber01_2b_aaza}}} m\u003dOPEN f\u003dNONE leash\u003dSurface(name\u003dTask\u003d53)/@0x4484ff8 sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1},\n        {WCT{RemoteToken{2134c47 Task{f6ff285 #1 type\u003dhome}}} m\u003dTO_BACK f\u003dSHOW_WALLPAPER leash\u003dSurface(name\u003dTask\u003d1)/@0xcb3624f sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1}\n    ]}"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 412000000
+        }
+      },
+      "message": "onTransitionReady (#113) android.os.BinderProxy@584e49b: {id\u003d113 t\u003dOPEN f\u003d0x0 trk\u003d0 r\u003d[0@Point(0, 0)] c\u003d[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4b35026} m\u003dOPEN f\u003dNONE leash\u003dSurface(name\u003dTask\u003d53)/@0x3242a8b sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@628e467} m\u003dTO_BACK f\u003dSHOW_WALLPAPER leash\u003dSurface(name\u003dTask\u003d1)/@0xddea768 sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1}]}"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 413000000
+        }
+      },
+      "message": "Playing animation for (#113) android.os.BinderProxy@584e49b@0"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 413000000
+        }
+      },
+      "message": " try firstHandler com.android.wm.shell.transition.DefaultMixedHandler@b0408f0"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 413000000
+        }
+      },
+      "message": "Mixed transition for opening an intent with a remote transition and PIP #113"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 413000000
+        }
+      },
+      "message": " Delegate animation for (#113) to RemoteTransition { remoteTransition \u003d android.window.IRemoteTransition$Stub$Proxy@7432f77, appThread \u003d android.app.IApplicationThread$Stub$Proxy@d1ba7e4, debugName \u003d QuickstepLaunch }"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 416000000
+        }
+      },
+      "message": " animated by firstHandler"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1606,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "UserManagerService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 417000000
+        }
+      },
+      "message": "Requested status bar icon for non-badged user 0"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 419000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d315"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "BaseDepthController",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 419000000
+        }
+      },
+      "message": "mSurface is null and mCurrentBlur is: 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "BaseDepthController",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 420000000
+        }
+      },
+      "message": "mSurface is null and mCurrentBlur is: 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "BaseDepthController",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 420000000
+        }
+      },
+      "message": "mSurface is null and mCurrentBlur is: 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "nativeloader",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 424000000
+        }
+      },
+      "message": "Load /data/user/0/com.example.deber01_2b_aaza/code_cache/startup_agents/c811a9f9-agent.so using system ns (caller\u003d\u003cunknown\u003e): ok"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 424000000
+        }
+      },
+      "message": "Startup agent attached to VM"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 424000000
+        }
+      },
+      "message": "No existing instrumentation found. Loading instrumentation from instruments-252e729b.jar"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "deber01_2b_aaza",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 428000000
+        }
+      },
+      "message": "DexFile /data/data/com.example.deber01_2b_aaza/code_cache/.studio/instruments-252e729b.jar is in boot class path but is not in a known location"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "re-initialized\u003e",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 420000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:1381): avc:  granted  { execute } for  path\u003d\"/data/data/com.example.deber01_2b_aaza/code_cache/startup_agents/c811a9f9-agent.so\" dev\u003d\"dm-46\" ino\u003d368757 scontext\u003du:r:untrusted_app:s0:c210,c256,c512,c768 tcontext\u003du:object_r:app_data_file:s0:c210,c256,c512,c768 tclass\u003dfile app\u003dcom.example.deber01_2b_aaza"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "BaseDepthController",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 430000000
+        }
+      },
+      "message": "mSurface is null and mCurrentBlur is: 0"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 431000000
+        }
+      },
+      "message": "Applying transforms with cached classes"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 436000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d316"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 453000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d317"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 469000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d318"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1636,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 474000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d136.46ms min\u003d3.11ms max\u003d5234.93ms count\u003d44"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 486000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d319"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 414,
+        "tid": 556,
+        "applicationId": "pid-414",
+        "processName": "pid-414",
+        "tag": "audioserver",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 500000000
+        }
+      },
+      "message": "logFgsApiEnd: FGS Logger Transaction failed, -129"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 502000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d320"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 519000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d321"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 536000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d322"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 552000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d323"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 569000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d324"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "deber01_2b_aaza",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 582000000
+        }
+      },
+      "message": "Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "deber01_2b_aaza",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 582000000
+        }
+      },
+      "message": "Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 584000000
+        }
+      },
+      "message": "Registering DispatchJNI"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "pid-9051",
+        "processName": "pid-9051",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 584000000
+        }
+      },
+      "message": "Found com/android/tools/deploy/interpreter/JNI"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "",
+        "processName": "",
+        "tag": "",
+        "timestamp": {
+          "seconds": 0,
+          "nanos": 0
+        }
+      },
+      "message": "---------------------------- PROCESS STARTED (9051) for package com.example.deber01_2b_aaza ----------------------------"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 586000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d325"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 603000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d326"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "ziparchive",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 612000000
+        }
+      },
+      "message": "Unable to open \u0027/data/app/~~NAgW8qErAcKqCvfLVDmDeg\u003d\u003d/com.example.deber01_2b_aaza-XZ5HbUp52KZIhanooD3amA\u003d\u003d/base.dm\u0027: No such file or directory"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "ziparchive",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 612000000
+        }
+      },
+      "message": "Unable to open \u0027/data/app/~~NAgW8qErAcKqCvfLVDmDeg\u003d\u003d/com.example.deber01_2b_aaza-XZ5HbUp52KZIhanooD3amA\u003d\u003d/base.dm\u0027: No such file or directory"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 619000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d327"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 636000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d328"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 652000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d329"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 669000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d330"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 686000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d331"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 703000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d332"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 720000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d333"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1168,
+        "tid": 4082,
+        "applicationId": "pid-1168",
+        "processName": "pid-1168",
+        "tag": "ChimeraSrvcProxy",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 733000000
+        }
+      },
+      "message": "NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1168,
+        "tid": 4082,
+        "applicationId": "pid-1168",
+        "processName": "pid-1168",
+        "tag": ".gms.persistent",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 733000000
+        }
+      },
+      "message": "Large reply transaction of 1056768 bytes, interface descriptor , code 1"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 736000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 736000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 736000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d334"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 736000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 736000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 736000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 736000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 736000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 737000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 739000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1522,
+        "tid": 1922,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "BugleRcsEngine",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 741000000
+        }
+      },
+      "message": "Connected state: [1], networkType: [WIFI] [CONTEXT thread_id\u003d56 ]"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 742000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 742000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 742000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 742000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 742000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 742000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1522,
+        "tid": 2704,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "BugleRcsEngine",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 743000000
+        }
+      },
+      "message": "handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix\u003d\"RcsEngineImpl[DUAL_REG]:[0598367f-0a9a]\u003eHandler\" thread_id\u003d63 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1522,
+        "tid": 2704,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "BugleRcsEngine",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 750000000
+        }
+      },
+      "message": "No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix\u003d\"ProvisioningEngineDataRetriever\" thread_id\u003d63 ]"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 752000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d335"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 769000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d336"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 786000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d337"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 803000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d338"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 820000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d339"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 836000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d340"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "nativeloader",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 836000000
+        }
+      },
+      "message": "Configuring clns-7 for other apk /data/app/~~NAgW8qErAcKqCvfLVDmDeg\u003d\u003d/com.example.deber01_2b_aaza-XZ5HbUp52KZIhanooD3amA\u003d\u003d/base.apk. target_sdk_version\u003d35, uses_libraries\u003d, library_path\u003d/data/app/~~NAgW8qErAcKqCvfLVDmDeg\u003d\u003d/com.example.deber01_2b_aaza-XZ5HbUp52KZIhanooD3amA\u003d\u003d/lib/x86_64, permitted_path\u003d/data:/mnt/expand:/data/user/0/com.example.deber01_2b_aaza"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "CompatChangeReporter",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 838000000
+        }
+      },
+      "message": "Compat change id reported: 202956589; UID 10210; state: ENABLED"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "GraphicsEnvironment",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 849000000
+        }
+      },
+      "message": "Currently set values for:"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "GraphicsEnvironment",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 849000000
+        }
+      },
+      "message": "  angle_gl_driver_selection_pkgs\u003d[]"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "GraphicsEnvironment",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 849000000
+        }
+      },
+      "message": "  angle_gl_driver_selection_values\u003d[]"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "GraphicsEnvironment",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 849000000
+        }
+      },
+      "message": "Global.Settings values are invalid: number of packages: 0, number of values: 0"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "GraphicsEnvironment",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 849000000
+        }
+      },
+      "message": "Neither updatable production driver nor prerelease driver is supported."
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 853000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d341"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 869000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d342"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "CompatChangeReporter",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 885000000
+        }
+      },
+      "message": "Compat change id reported: 279646685; UID 10210; state: ENABLED"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 886000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d343"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 642,
+        "tid": 1606,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "AppsFilter",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 898000000
+        }
+      },
+      "message": "interaction: PackageSetting{f8272cb com.example.deber01_2b_aaza/10210} -\u003e PackageSetting{2faf1dc com.google.android.apps.nexuslauncher/10176} BLOCKED"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1606,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "OptProp",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 898000000
+        }
+      },
+      "message": "Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 903000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d344"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "TransactionExecutor",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 915000000
+        }
+      },
+      "message": "Failed to execute the transaction: tId:-821304227 ClientTransaction{\ntId:-821304227   transactionItems\u003d[\ntId:-821304227     LaunchActivityItem{activityToken\u003dandroid.os.BinderProxy@c302568,intent\u003dIntent { act\u003dandroid.intent.action.MAIN cat\u003d[android.intent.category.LAUNCHER] flg\u003d0x10200000 cmp\u003dcom.example.deber01_2b_aaza/.MainActivity bnds\u003d[540,762][787,1077] },ident\u003d104438429,info\u003dActivityInfo{709d6b2 com.example.deber01_2b_aaza.MainActivity},curConfig\u003d{1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig\u003d{ mBounds\u003dRect(0, 0 - 1080, 2400) mAppBounds\u003dRect(0, 0 - 1080, 2400) mMaxBounds\u003dRect(0, 0 - 1080, 2400) mDisplayRotation\u003dROTATION_0 mWindowingMode\u003dfullscreen mActivityType\u003dundefined mAlwaysOnTop\u003dundefined mRotation\u003dROTATION_0} as.3 s.53 fontWeightAdjustment\u003d0},overrideConfig\u003d{1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h914dp 420dpi nrml long port finger qwerty/v/v dpad/v winConfig\u003d{ mBounds\u003dRect(0, 0 - 1080, 2400) mAppBounds\u003dRect(0, 0 - 1080, 2400) mMaxBounds\u003dRect(0, 0 - 1080, 2400) mDisplayRotation\u003dROTATION_0 mWindowingMode\u003dfullscreen mActivityType\u003dstandard mAlwaysOnTop\u003dundefined mRotation\u003dROTATION_0} as.3 s.3 fontWeightAdjustment\u003d0},deviceId\u003d0,referrer\u003dnull,procState\u003d2,state\u003dnull,persistentState\u003dnull,pendingResults\u003dnull,pendingNewIntents\u003dnull,sceneTransitionInfo\u003dnull,profilerInfo\u003dnull,assistToken\u003dandroid.os.BinderProxy@44efa67,shareableActivityToken\u003dandroid.os.BinderProxy@8963014,activityWindowInfo\u003dActivityWindowInfo{isEmbedded\u003dfalse, taskBounds\u003dRect(0, 0 - 1080, 2400), taskFragmentBounds\u003dRect(0, 0 - 1080, 2400)}}\ntId:-821304227     ResumeActivityItem{mActivityToken\u003dandroid.os.BinderProxy@c302568,procState\u003d-1,updateProcState\u003dfalse,isForward\u003dtrue,shouldSendCompatFakeFocus\u003dfalse}\ntId:-821304227     Target activity: Not found for token: android.os.BinderProxy@c302568\ntId:-821304227   ]\ntId:-821304227 }"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 915000000
+        }
+      },
+      "message": "Shutting down VM"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "AndroidRuntime",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 919000000
+        }
+      },
+      "message": "FATAL EXCEPTION: main\nProcess: com.example.deber01_2b_aaza, PID: 9051\njava.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.example.deber01_2b_aaza/com.example.deber01_2b_aaza.MainActivity}: java.lang.ClassNotFoundException: Didn\u0027t find class \"com.example.deber01_2b_aaza.MainActivity\" on path: DexPathList[[zip file \"/data/app/~~NAgW8qErAcKqCvfLVDmDeg\u003d\u003d/com.example.deber01_2b_aaza-XZ5HbUp52KZIhanooD3amA\u003d\u003d/base.apk\"],nativeLibraryDirectories\u003d[/data/app/~~NAgW8qErAcKqCvfLVDmDeg\u003d\u003d/com.example.deber01_2b_aaza-XZ5HbUp52KZIhanooD3amA\u003d\u003d/lib/x86_64, /system/lib64, /system_ext/lib64]]\n\tat android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3954)\n\tat android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4235)\n\tat android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)\n\tat android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)\n\tat android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)\n\tat android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:2636)\n\tat android.os.Handler.dispatchMessage(Handler.java:107)\n\tat android.os.Looper.loopOnce(Looper.java:232)\n\tat android.os.Looper.loop(Looper.java:317)\n\tat android.app.ActivityThread.main(ActivityThread.java:8705)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)\nCaused by: java.lang.ClassNotFoundException: Didn\u0027t find class \"com.example.deber01_2b_aaza.MainActivity\" on path: DexPathList[[zip file \"/data/app/~~NAgW8qErAcKqCvfLVDmDeg\u003d\u003d/com.example.deber01_2b_aaza-XZ5HbUp52KZIhanooD3amA\u003d\u003d/base.apk\"],nativeLibraryDirectories\u003d[/data/app/~~NAgW8qErAcKqCvfLVDmDeg\u003d\u003d/com.example.deber01_2b_aaza-XZ5HbUp52KZIhanooD3amA\u003d\u003d/lib/x86_64, /system/lib64, /system_ext/lib64]]\n\tat dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)\n\tat java.lang.ClassLoader.loadClass(ClassLoader.java:637)\n\tat java.lang.ClassLoader.loadClass(ClassLoader.java:573)\n\tat android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)\n\tat androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)\n\tat android.app.Instrumentation.newActivity(Instrumentation.java:1448)\n\tat android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3941)\n\tat android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4235) \n\tat android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112) \n\tat android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174) \n\tat android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109) \n\tat android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81) \n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:2636) \n\tat android.os.Handler.dispatchMessage(Handler.java:107) \n\tat android.os.Looper.loopOnce(Looper.java:232) \n\tat android.os.Looper.loop(Looper.java:317) \n\tat android.app.ActivityThread.main(ActivityThread.java:8705) \n\tat java.lang.reflect.Method.invoke(Native Method) \n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580) \n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886) "
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 919000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d345"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 642,
+        "tid": 9068,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "DropBoxManagerService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 927000000
+        }
+      },
+      "message": "add tag\u003ddata_app_crash isTagEnabled\u003dtrue flags\u003d0x2"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1606,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ActivityTaskManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 927000000
+        }
+      },
+      "message": "  Force finishing activity com.example.deber01_2b_aaza/.MainActivity"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 930000000
+        }
+      },
+      "message": "Transition requested (#114): android.os.BinderProxy@30845b9 TransitionRequestInfo { type \u003d CLOSE, triggerTask \u003d null, pipTask \u003d null, remoteTransition \u003d null, displayChange \u003d null, flags \u003d 16, debugId \u003d 114 }"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "TopTaskTracker",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 935000000
+        }
+      },
+      "message": "onTaskMovedToFront: (moved taskInfo to front) taskId\u003d9, baseIntent\u003dIntent { act\u003dandroid.intent.action.MAIN cat\u003d[android.intent.category.HOME] flg\u003d0x10000100 cmp\u003dcom.google.android.apps.nexuslauncher/.NexusLauncherActivity }"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 936000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d346"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 938000000
+        }
+      },
+      "message": "Transition animation finished (aborted\u003dfalse), notifying core (#113) android.os.BinderProxy@584e49b@0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 9051,
+        "tid": 9051,
+        "applicationId": "com.example.deber01_2b_aaza",
+        "processName": "com.example.deber01_2b_aaza",
+        "tag": "Process",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 939000000
+        }
+      },
+      "message": "Sending signal. PID: 9051 SIG: 9"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 677,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 940000000
+        }
+      },
+      "message": "Finish Transition (#113): created at 01-22 05:49:21.341 collect-started\u003d0.035ms request-sent\u003d4.069ms started\u003d5.416ms ready\u003d65.26ms sent\u003d68.293ms finished\u003d597.406ms"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 941000000
+        }
+      },
+      "message": "Track 0 became idle"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1606,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "UserManagerService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 942000000
+        }
+      },
+      "message": "Requested status bar icon for non-badged user 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "",
+        "processName": "",
+        "tag": "",
+        "timestamp": {
+          "seconds": 0,
+          "nanos": 0
+        }
+      },
+      "message": "---------------------------- PROCESS ENDED (9051) for package com.example.deber01_2b_aaza ----------------------------"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1917,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "UserManagerService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 942000000
+        }
+      },
+      "message": "Requested status bar icon for non-badged user 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 642,
+        "tid": 1205,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 949000000
+        }
+      },
+      "message": "Process com.example.deber01_2b_aaza (pid 9051) has died: fg  TOP "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 444,
+        "tid": 444,
+        "applicationId": "pid-444",
+        "processName": "pid-444",
+        "tag": "adbd",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 950000000
+        }
+      },
+      "message": "Remote process closed the socket (on MSG_PEEK)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 373,
+        "tid": 373,
+        "applicationId": "pid-373",
+        "processName": "pid-373",
+        "tag": "Zygote",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 951000000
+        }
+      },
+      "message": "Process 9051 exited due to signal 9 (Killed)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 642,
+        "tid": 678,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "DisplayManagerService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 952000000
+        }
+      },
+      "message": "Drop pending events for gone uid 10210"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 953000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d347"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 642,
+        "tid": 691,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "libprocessgroup",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 958000000
+        }
+      },
+      "message": "Removed cgroup /sys/fs/cgroup/uid_10210/pid_9051"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1131,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 959000000
+        }
+      },
+      "message": "onTransitionReady(transaction\u003d2757369008200)"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 959000000
+        }
+      },
+      "message": "onTransitionReady (#114) android.os.BinderProxy@30845b9: {id\u003d114 t\u003dCLOSE f\u003d0x10 trk\u003d1 r\u003d[0@Point(0, 0)] c\u003d[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4de8475} m\u003dTO_FRONT f\u003dSHOW_WALLPAPER|MOVE_TO_TOP leash\u003dSurface(name\u003dTask\u003d1)/@0x5da3dfe sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@6983c0a} m\u003dCLOSE f\u003dNONE leash\u003dSurface(name\u003dTask\u003d53)/@0xd43f95f sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1}]}"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": "Playing animation for (#114) android.os.BinderProxy@30845b9@1"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " try handler com.android.wm.shell.transition.DefaultMixedHandler@b0408f0"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@5111e69"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " try handler com.android.wm.shell.pip.PipTransition@dc420ee"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@49eb98f"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " try handler com.android.wm.shell.recents.RecentsTransitionHandler@7b8c41c"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "ShellRecents",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": "RecentsTransitionHandler.startAnimation: no controller found"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " try handler com.android.wm.shell.splitscreen.StageCoordinator@f143825"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " try handler com.android.wm.shell.transition.RemoteTransitionHandler@6555dfa"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": "Transition doesn\u0027t have explicit remote, search filters for match for {id\u003d114 t\u003dCLOSE f\u003d0x10 trk\u003d1 r\u003d[0@Point(0, 0)] c\u003d[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4de8475} m\u003dTO_FRONT f\u003dSHOW_WALLPAPER|MOVE_TO_TOP leash\u003dSurface(name\u003dTask\u003d1)/@0x5da3dfe sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@6983c0a} m\u003dCLOSE f\u003dNONE leash\u003dSurface(name\u003dTask\u003d53)/@0xd43f95f sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1}]}"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " Checking filter Pair{{types\u003d[] flags\u003d0x0] notFlags\u003d0x0 checks\u003d[{atype\u003dundefined independent\u003dtrue modes\u003d[OPEN,TO_FRONT] flags\u003dIN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask\u003dfalse order\u003dANY topActivity\u003dComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie\u003dnull},{atype\u003dundefined independent\u003dtrue modes\u003d[CLOSE,TO_BACK] flags\u003dIN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask\u003dfalse order\u003dANY topActivity\u003dnull launchCookie\u003dnull}]} RemoteTransition { remoteTransition \u003d android.window.IRemoteTransition$Stub$Proxy@615798b, appThread \u003d android.app.IApplicationThread$Stub$Proxy@eaf4a68, debugName \u003d OverlaySwipeBack }}"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " Checking filter Pair{{types\u003d[] flags\u003d0x0] notFlags\u003d0x0 checks\u003d[{atype\u003ddream independent\u003dtrue modes\u003d[OPEN,TO_FRONT] flags\u003dNONE mustBeTask\u003dfalse order\u003dANY topActivity\u003dnull launchCookie\u003dnull},{atype\u003dhome independent\u003dtrue modes\u003d[CLOSE,TO_BACK] flags\u003dNONE mustBeTask\u003dfalse order\u003dANY topActivity\u003dnull launchCookie\u003dnull}]} RemoteTransition { remoteTransition \u003d android.window.IRemoteTransition$Stub$Proxy@dbe8e81, appThread \u003d android.app.IApplicationThread$Stub$Proxy@2542b26, debugName \u003d LauncherToDream }}"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " Checking filter Pair{{types\u003d[] flags\u003d0x0] notFlags\u003d0x100 checks\u003d[{atype\u003dhome independent\u003dtrue modes\u003d[OPEN,TO_FRONT] flags\u003dNONE mustBeTask\u003dfalse order\u003dTOP topActivity\u003dComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie\u003dnull},{atype\u003dstandard independent\u003dtrue modes\u003d[CLOSE,TO_BACK] flags\u003dNONE mustBeTask\u003dfalse order\u003dANY topActivity\u003dnull launchCookie\u003dnull}]} RemoteTransition { remoteTransition \u003d android.window.IRemoteTransition$Stub$Proxy@8602367, appThread \u003d android.app.IApplicationThread$Stub$Proxy@462a514, debugName \u003d QuickstepLaunchHome }}"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "RemoteTransitionHandler",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": "Found filterPair{{types\u003d[] flags\u003d0x0] notFlags\u003d0x100 checks\u003d[{atype\u003dhome independent\u003dtrue modes\u003d[OPEN,TO_FRONT] flags\u003dNONE mustBeTask\u003dfalse order\u003dTOP topActivity\u003dComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie\u003dnull},{atype\u003dstandard independent\u003dtrue modes\u003d[CLOSE,TO_BACK] flags\u003dNONE mustBeTask\u003dfalse order\u003dANY topActivity\u003dnull launchCookie\u003dnull}]} RemoteTransition { remoteTransition \u003d android.window.IRemoteTransition$Stub$Proxy@8602367, appThread \u003d android.app.IApplicationThread$Stub$Proxy@462a514, debugName \u003d QuickstepLaunchHome }}"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 960000000
+        }
+      },
+      "message": " Delegate animation for (#114) to RemoteTransition { remoteTransition \u003d android.window.IRemoteTransition$Stub$Proxy@8602367, appThread \u003d android.app.IApplicationThread$Stub$Proxy@462a514, debugName \u003d QuickstepLaunchHome }"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "StatsLog",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 969000000
+        }
+      },
+      "message": "LAUNCHER_ONRESUME"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 969000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d348"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1519,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "AppSearchIcing",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 970000000
+        }
+      },
+      "message": "icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1755,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "OneSearchSuggestProvider",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 973000000
+        }
+      },
+      "message": "AppSearch 0-state cache not available, fallback to AGA\njava.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present\n\tat java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)\n\tat java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)\n\tat java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)\n\tat java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)\n\tat java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)\n\tat com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:67)\n\tat android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)\n\tat android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)\n\tat android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)\n\tat android.os.Handler.handleCallback(Handler.java:959)\n\tat android.os.Handler.dispatchMessage(Handler.java:100)\n\tat android.os.Looper.loopOnce(Looper.java:232)\n\tat android.os.Looper.loop(Looper.java:317)\n\tat android.os.HandlerThread.run(HandlerThread.java:85)\nCaused by: java.util.NoSuchElementException: No value present\n\tat java.util.Optional.get(Optional.java:143)\n\tat com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 2855a437b73635ce9cad76b9289087e631bbb67fc90008a0da13d343a00e5041:28)\n\tat android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144) \n\tat android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1) \n\tat android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22) \n\tat android.os.Handler.handleCallback(Handler.java:959) \n\tat android.os.Handler.dispatchMessage(Handler.java:100) \n\tat android.os.Looper.loopOnce(Looper.java:232) \n\tat android.os.Looper.loop(Looper.java:317) \n\tat android.os.HandlerThread.run(HandlerThread.java:85) "
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1755,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "OneSearchSuggestProvider",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 974000000
+        }
+      },
+      "message": "Established or reuse existing binder channel authority\u003dcom.google.android.googlequicksearchbox"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 976000000
+        }
+      },
+      "message": " animated by com.android.wm.shell.transition.RemoteTransitionHandler@6555dfa"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 677,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 978000000
+        }
+      },
+      "message": "Sent Transition (#114) createdAt\u003d01-22 05:49:21.928 via request\u003dTransitionRequestInfo { type \u003d CLOSE, triggerTask \u003d null, pipTask \u003d null, remoteTransition \u003d null, displayChange \u003d null, flags \u003d 16, debugId \u003d 114 }"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 677,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 978000000
+        }
+      },
+      "message": "    startWCT\u003dWindowContainerTransaction { changes \u003d {} hops \u003d [] errorCallbackToken\u003dnull taskFragmentOrganizer\u003dnull }"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 677,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 978000000
+        }
+      },
+      "message": "    info\u003d{id\u003d114 t\u003dCLOSE f\u003d0x10 trk\u003d1 r\u003d[0@Point(0, 0)] c\u003d[\n        {WCT{RemoteToken{2134c47 Task{f6ff285 #1 type\u003dhome}}} m\u003dTO_FRONT f\u003dSHOW_WALLPAPER|MOVE_TO_TOP leash\u003dSurface(name\u003dTask\u003d1)/@0xcb3624f sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1},\n        {WCT{RemoteToken{901336 Task{610db12 #53 type\u003dstandard A\u003d10210:com.example.deber01_2b_aaza}}} m\u003dCLOSE f\u003dNONE leash\u003dSurface(name\u003dTask\u003d53)/@0x4484ff8 sb\u003dRect(0, 0 - 1080, 2400) eb\u003dRect(0, 0 - 1080, 2400) d\u003d0 taskParent\u003d-1}\n    ]}"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 642,
+        "tid": 782,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ImeTracker",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 979000000
+        }
+      },
+      "message": "com.google.android.apps.nexuslauncher:8acd087b: onRequestHide at ORIGIN_SERVER reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR fromUser false"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 979000000
+        }
+      },
+      "message": "Predicting[0]:  [CONTEXT sampling_count\u003d5 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 979000000
+        }
+      },
+      "message": "EchoTargets: \nFiltered by AiAi flag check: \n[CONTEXT ratelimit_period\u003d\"10 SECONDS\" ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 642,
+        "tid": 782,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ImeTracker",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 979000000
+        }
+      },
+      "message": "com.google.android.apps.nexuslauncher:8acd087b: onCancelled at PHASE_SERVER_SHOULD_HIDE"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 979000000
+        }
+      },
+      "message": "Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period\u003d\"10 SECONDS\" ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 980000000
+        }
+      },
+      "message": "#remoteViewsTwiddler: feature disabled."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1303,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "QuickstepModelDelegate",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 980000000
+        }
+      },
+      "message": "notifyAppTargetEvent action\u003d1 launchLocation\u003d"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1383,
+        "tid": 1383,
+        "applicationId": "pid-1383",
+        "processName": "pid-1383",
+        "tag": "GoogleInputMethodService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 981000000
+        }
+      },
+      "message": "GoogleInputMethodService.onFinishInput():3157 "
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 796,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "UserManagerService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 983000000
+        }
+      },
+      "message": "Requested status bar icon for non-badged user 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1383,
+        "tid": 1383,
+        "applicationId": "pid-1383",
+        "processName": "pid-1383",
+        "tag": "GoogleInputMethodService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 984000000
+        }
+      },
+      "message": "GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes \u003d 0, locked \u003d false"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1383,
+        "tid": 1383,
+        "applicationId": "pid-1383",
+        "processName": "pid-1383",
+        "tag": "GoogleInputMethodService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 984000000
+        }
+      },
+      "message": "GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName\u003dcom.google.android.apps.nexuslauncher, inputType\u003d0, inputTypeString\u003dNULL, enableLearning\u003dfalse, autoCorrection\u003dfalse, autoComplete\u003dfalse, imeOptions\u003d0, privateImeOptions\u003dnull, actionName\u003dUNSPECIFIED, actionLabel\u003dnull, initialSelStart\u003d-1, initialSelEnd\u003d-1, initialCapsMode\u003d0, label\u003dnull, fieldId\u003d0, fieldName\u003dnull, extras\u003dnull, hintText\u003dnull, hintLocales\u003d[]}}, false)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1383,
+        "tid": 1383,
+        "applicationId": "pid-1383",
+        "processName": "pid-1383",
+        "tag": "GoogleInputMethodService",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 984000000
+        }
+      },
+      "message": "GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes \u003d 1, locked \u003d false"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1383,
+        "tid": 1383,
+        "applicationId": "pid-1383",
+        "processName": "pid-1383",
+        "tag": "AndroidIME",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 984000000
+        }
+      },
+      "message": "InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1606,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "PackageConfigPersister",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 985000000
+        }
+      },
+      "message": "App-specific configuration not found for packageName: com.google.android.apps.nexuslauncher and userId: 0"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 986000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d349"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 988000000
+        }
+      },
+      "message": "#postPredictionTargets: Sending updates to UISurface home with targets# 0 (types\u003d[])"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 933,
+        "tid": 1106,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowOnBackDispatcher",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 992000000
+        }
+      },
+      "message": "sendCancelIfRunning: isInProgress\u003dfalse callback\u003dandroid.view.ViewRootImpl$$ExternalSyntheticLambda11@c03e54e"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 642,
+        "tid": 1925,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "CoreBackPreview",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 992000000
+        }
+      },
+      "message": "Window{89d965e u0 Splash Screen com.example.deber01_2b_aaza EXITING}: Setting back callback null"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1606,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "InputManager-JNI",
+        "timestamp": {
+          "seconds": 1737524961,
+          "nanos": 993000000
+        }
+      },
+      "message": "Input channel object \u002789d965e Splash Screen com.example.deber01_2b_aaza (client)\u0027 was disposed without first being removed with the input manager!"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 2000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d350"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 396,
+        "tid": 396,
+        "applicationId": "pid-396",
+        "processName": "pid-396",
+        "tag": "RanchuHwc",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 3000000
+        }
+      },
+      "message": "logCompositionFallbackIfChanged: layer 192 CompositionType fallback from 2 to 1"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1507,
+        "tid": 1715,
+        "applicationId": "pid-1507",
+        "processName": "pid-1507",
+        "tag": "BistoHotwordHelper",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 15000000
+        }
+      },
+      "message": "(REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 19000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d351"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "queryLength\u003d0 size\u003d15"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dcanada postal workers strike update,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dcanada postal workers strike update searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: dc428eeb-9c31-487d-80ea-cef6c3834f0f"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dthanksgiving day parade cbs,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dthanksgiving day parade cbs searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: 98c7f9ea-0621-4f8e-ad26-050aff80d046"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003d2025 social security cola increase,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003d2025 social security cola increase searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: 24e62dbd-862b-4d6a-a7b3-ab6cbc992533"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dmoana reviews,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dmoana reviews searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: 0d150a2c-a78e-4842-a02b-7e8e6bcfb2ab"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dipl auction ipl 2025,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dipl auction ipl 2025 searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: 8f7767e9-d212-425d-b442-185fbcdb415e"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dncis season 22 episode 6 cast,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dncis season 22 episode 6 cast searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: e258aa23-e1d6-4246-9717-7250e52b3d50"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dterrifier 3 streaming,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dterrifier 3 streaming searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: edb846c1-3e44-4551-8626-5e1d0f44e88d"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dnyt crossword clues,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dnyt crossword clues searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: 9e9f5b8f-c635-4af5-8ad7-40529d6b2fb3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 23000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dcharlotte airport workers strike,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dcharlotte airport workers strike searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: a5f63582-233b-4875-a0ec-5608651927bf"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 24000000
+        }
+      },
+      "message": "layoutType\u003dextra_tall_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{bitmap_url\u003ddata:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAEYAfAMBEQACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAACBAUDAQYAB//EAEsQAAIBAgUABQYICQkJAAAAAAECAwQRAAUSITETFCJBYQYyQlFxkRUjVWKBlKHSMzRSU3SSk9HwJCU1Q3KisbPCFkRUc4KywdPi/8QAGgEAAwEBAQEAAAAAAAAAAAAAAQIDAAQFBv/EADARAAEDAwICCQUAAwEAAAAAAAEAAhEDEiExUaHwBBMiQWFxgdHhMlKRscEUQnIF/9oADAMBAAIRAxEAPwD8zq8tjoMlmkp5TLFU0lNISSOzISC67eoke/GRCxgyFHplnNU5Uxo944QwYta6L2wSwub7DzW8L6EbiircjgpHiRcyjmLsouE0qwKkkqTe4FtzYcjnCuEK9Dtug/OFynyaGdpUXMadHTTpudSyXBtZrD0tK8d5PAwAJJCZ7g1rXAapiLII3ikkGYCywGRFEJLMwJ7Fr7G2k/8AVbuwbEnX+CrZF5NwZ5l+XyVNY9KF0w6tClQGkmJY3YHawJ2t79ltkJzVLHGEWWeR1NVUNNLV5n1OWUDpFcIRGemVPyhe4Ykf2G79hrE3+QQcBMjyciXJ4pqfMoKk0c0Ui6DpEokWNm0hrE6fEA99ha2BamFUlxkary9QiSZhVhpFQiRtOrgnXa1+7Yk/RiRK7ASGCESU9LpbpKtQQR6Jtba5+i5277eOEJOyN7o+FRloqUS1caUswMMZJuWugGrtn22G38GQcYaSdeYQ6x1xASaU9OZdJq10i2+k79qx+y593fhyTExzzhWFSpORwKylVElKxuHUAWYd+2Muik+8Z1Vz4PirnqWeshgmhoqZoY5W09M3RpcAnbi/vHjh7blI1jSjEgkz4ZKoy+TeVpTPIc5jgZbE9K6Pa8SvayElu0WUkcbbHDGk2NVJnTqxcBZPlP8AV5/MII6XMKqngmE0UMzxpKLdtQxAbb1gXxFwgwvUovL6bXEQSEjRnKRleY6Yq8LaLUDIl/O2t2cegvjFjHS0TomigzhklN1sVIcgHjsb7XxoKMhElNRR6HFFm6azZG1KNR8Do8MYMLjACcVLO0HRCKaGiA1S0uaMo9Myow4J5024B9xwHUyzBCoKxqZLp819HT0Rl0R0OaGRQW0hluLGxPmdx29uFhPdjJCYqzljU+XDoK1r050gTJf8LJ83CmE7Zylv5sW2qmrhcXF5k+5hcKzbtwqsLZf1TK7QVdutSafjl2PxfPYwcYW7UuStacu65Uk01abStciZbXufmYUxKo0uAGQsx8H2uKSvsO/pl8fmeB92FwqXEiLgm+uU7626rVEugViDFfT3f1Xjz44S1vJQtE6j8LDVlw/3Wt/br9zBwugPOlw59UZOXqRqpK0e2dR/owuFVpe7Rw/HynMzky/rKaqeqJ6vBxUL+aT5mM6EaQfGCNT3ePmlhJlv/DVX1lfuYXCuBU3H4+UQky+34rVfWV+5gYTxU3H4+UtmWcpnOUTMIZo3pqWnpy0tR0pcK3N9II3LHcnmwsABj0V8akVzzpYJY5qeAyTRrHLJcjWiqABsdvMXjbnbDh04KUsAyt5vKOqqZOklMGpiOk03Gvd28e92/jmjKkOkpXUgRAX0Of1MbM0bx9vRrEg1arageABuGYHwOM+qHAAYARbQiSco6byhqaexGh2VCkZ37N2Rj9qFtt7sTiRqWqo6OHLlPXNllVkNfCLtTIJQuq2rTPIbX8bWxCYyuwNuBaq9T5cVNRRdV6pDoNO8MjvpZ21RCMHVpGm1vRtfYG/Jxeg3o4BmUGU5o1HkkFGA5StqSkmmUr2VaNuOCdWnf1Aj0sAHCq5tzydlOkqUjrahZmIEdRI8emJXsx2J3I9SkeIxNzQZT2uMRovmrVWNkhqJbag6B4FFm7Vz5x/KP2erC2t7wtZWRvmGpp3D2eWHoyBGAvm6Seb8fafDCBggDYyqWVCSY1Hxuux1qmTpJJG1EODaBNw1yw543PswSBED97LCjWmef2sqqpapmDMwIVdKnSFJHjb6cCGgQF1dHZUaSXKymZrl1TUK0TSrVZfDAyiXSLGJLng3Pq9R92HDrVjRNUAgxBJ08VQbyy/k7Rrl0buVC9JUydLcCNUswK9rzb77gk2tg9d4Kbf/ADe1Jf8AgR/V5/MKvr2YVVYVVDUTPKUHC6mJt9uIuMmV6dGn1dNrNgu1Eub5dlMskuaGbrNLBUwvFI3ZVpCpBuBuCpB9mPRXxgU3rmfqjO1bUqqxrI5Lnso1tJPtuPfifWNOh8FYMVOlTOumZa/M6qAR6NelixGq9vsVj9BxB3SRHYzrwVmUAT2sIa74bh+MpswrJYDrOpntYKSD3+F/f6jgs6QHYdgpnUWjTIS7y+UMUE00tVVokIUvqmIsGAK++4weuYSADyFgwbJ2jnzLMpctphnEtNrpJHaWSV9I0ySkk2vwqnf1DFcoGGyYT9LkXlFVUlPURZ9HaZFcxtXMrpfpNiDywMTiwubj1AkC07rCrTH+q7liZzWeTkeax5lMIaKrAnDVD63DtGot67E73I5wBMKhsDyI1UifMszlzSSBc0q4w9QUDGdrLdrX54GEc4gEroFNpYIAW8UleNIq/KGtpS+4Wol0uBtuRr2vc/qm+ENYn6RPlPtzK5QS0QY9QEtHUVclU8beVs0aWHRuZ25uos1mt6R3BPmk8Yc1HBs2c559VEZd9S1inzHq8tRF5QVc4QA6BKTyTcGzbEAX9mEfUINsQuro2XAkgjyCzGbZl8o1n7dv34W47r1hSp/aE/mGZZh1uJFr6sXgg4mbkxJ3XxiTKFOnTDSS0d/7KrZtlGeZVBNPLnWtYo1k0LVv0hUuEB0823547rnDOY5omVHo/SaFZwaGa+HhKg/CmY/KFX+3b9+JSV6PU0/tH4SiGWrymuSrz+KpVFiCGR53EY1AbXTbYAbeoY9FfGqcqFY+jXPaYJtt8f3Xt/V8bn34S1szCoHOAhOUNU9Ixvm9FOp03WXrBHZNwPM4vbE6lFjxsqsqvb3Sir6tqx0PwrRwomoIkXWAACTcbp84j2G2Fp0WM8Uxe5x0WA16NBzyEoV06SZyLb7W0eJ9+GsbrCYE7Jmqpolpsv05pSr/ACVluBNuDLJf0ON7YYotOThZaLtc53ATe9yZ+d/mfOPvPrwvqqD/AJVii1U+X5fFT5zFFHJVPrWMzKJPM2I0b2uefXg9yxy4khTq2jgNdUE5nSC8rbFZttz8zCnVXY42jH6S4oVAtHnlOo4A0zEAXvb8Hxg3Bc7uik6Tw90S0TkjVn9NbwSb1k/m/E+/GL2pW9DfOZ4e62Wiht2s2pm3udQmP+jEyZ7130qbaejDw90Yo4PlOk/Vm/8AXhCPFdQe77Tw909mVLD1qM/CNKpFPB6Mv5pN/MxiPFCk42/SdTtv5rFoUckvm1OxbkkTG+9/yPXvhT5qzTGjP17rnVIPlKk/Vl+5jQN1XrHfaeHulKugy+l8nnmyyvSqE9JTvUITZ4ZtZ1KRYbC2x3+0Y9BfGhJpSZV1RphVqWsoRGDAlrLcNbgefa35I9eOe6pMRzn4XTa2JBXocnybKiZp44Z6iELG1Pqi1NIDbUCDsDz4c+oX5K1WtAGhzP8AFeiGXaSEGaZLlxRKllnp+yzShYuym7EA28Fsbd7A8A4NKrVMt155KNSydueQpctJ"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 24000000
+        }
+      },
+      "message": "layoutType\u003dextra_tall_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{bitmap_url\u003ddata:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFkAfAMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcEBQEDCAL/xAA8EAABBAEBBQYCBggHAAAAAAABAAIDBBEFBhIhMUETIlFhcYEHkRQyM0Kx8BUjNHJzobLBCDU3UoKD0f/EABoBAQACAwEAAAAAAAAAAAAAAAADBAIFBgH/xAAiEQACAgICAgIDAAAAAAAAAAAAAQIDBBEhMRIyIkEFE6H/2gAMAwEAAhEDEQA/ALxREQBERAEREAREQBERAEREAREQBERAEREAREQBcEgDJ4BcqGfF3VZNL2GumCQsltObWaWnBw497HnuhyAgu2fxU1S3qMun7KObDXjeWCy1gfJMQebc8A32zjjkLTxbR7emF4l1mcB4wOEW833DcqMbNNAtbx+63u5OOP5yrFpac+WuHPa05GRxyoLLGnpFqqmMo7ZFIds9tdHtCeXVLMkZPKfEsbvIjp7EK7NgdrYdr9GNtkXYWYX9nYhzkNdjOWnq0jl7joqf2hrbkckUm7xbwweR6H5rj4N7RM0bawUrBxX1QCDP+2UH9X88lvq4LOubkuSO6tQfB6HREUhCEREAREQBERAEREAVR/4g9QjGn6TpYeO2kndY3RzAa0sB+bz8lbipL4haLZ1raPVNVe1r4KsTooWOPHdhMO8Rjhjemk55+p0yvH0epbeiDaBQmlYXxxwyMzhzZPRSShDNBZmrae+R8e5ndAIax3kFodAsupzbrA3JBy8ccgfj1W3pWb8sklmjfbDGWn6rN7JPiR/6qk9tmwrUYxRhzad20O/G1s1txPaumHeY4HkOmFG68jNN2ipS2iRFXuRSSuBxhrXtJ/kpDXvWYBNHLOJpQzL+GD4ZPmtLS0ufX9WNeKLt5nxySmBsm697WMLiG8DxOMDhzKkq3vkhvS8eD1i0ggEHIPIrlarZSd1nZfSJ5Hbz5KULnO8SWDK2qsFQIiIAiIgCIiAIiIAo3q9V8egaperU3z3217jIYuLd/ecTjHXO6z+3NSRa/W9Vp6RQks37PYMAw0gZcT0DR1PknYPKGj3X0m13OzhruBI8+IVj6Dq+osqE6bNGIjx3O1c0N9gtHtLX0y3qksWnQvZA1jWOc9m66WUDvyEZPEniopaq3acu5Xkfu+Sgl4yZbi5RXRv9ptWnLpGTTCWeUjeIJJx4LZfCDSvpG1b9Ufe+j2qc0DYIsAibtN4SNPHnuNeQOfXiBxjOnacd4Szbzn+LlP8A4b7Vx7Py3v0pFJLVEcMcPYsBezEkhJOSOGZnHnnHILKGk9IwtUmtsuTRoJ6jLNaVp7OOw8wPwBvRu74HP7pcW9PqrYrF07Uaep1m2aFiOeF33mOzjyPgfIrKUrWuGVwiIgCIiAIiIAui5cr0oHT2544Ym83yOACjG2u2kWz5+iVGtm1BzQd12d2MHkT4ny/JqjVNWvavY7fULUkz+mTgN9AOAV3Hwp2ryfCIp2qPBYWvfEhjS6HRIO0PL6RMCB7N5n3x6Kt9SuXNSsG1dsyTzk/XkPL0HQeQXwx2c+RQY5La141da0kVpWSb5EcIvh9iA4lDsyRuPEHqs1mlusRte6PvY45WPTbXE364uiecBs7ObOPXxHkpXHPbhaGsjisY4NfHjB6Dr15/nK5fMxbMefj9fRu8e+NkdkYl0uRoDGM4krXuhbX342nLnHmPz44+SlWs3XMrkWmNhY7I3Ae+72Hr4jlyOcCMOeXSGRwALuQ8FZ/G4c7Zqyfqv6Q5l8Yx8Y9nbRt2dMsRz0Z3wWG8nxnj79CPIqx9nPiSxxZX2gjEbjwFqId3/k3p6j5BVi3i7JXLiHAroLceu1fJGqjNx6PR1axDagZPWljmieMtfG4OafQhdq886Jr2paJOZNNtOi3vrxnvMk9Wn8eatrYLa87UQ2Y7NcV7lUt7QMOWvBzhw8OR4ei0+Rhzp+XaLMLVLgliIiqEoQoiA89bT3/0jtJqdkOyH2HBv7re6P5ALXl+6M+AWOftF2y/Zu9F09a8YpIoPs7q/GPzJyV9OLRzWup/tdj2WXJzWezw7oszPEbB3jyW90evqzq7jUgFmuOWJODTz/IUfrftEX74/FWNst/ldj/t/pYqeZr9epLZJU2pcMgdyC5LLLNaIe+M7rgXjuEdMdFh5JPFbHXvtrH8c/iVrQrFPqjBtt8nJ4L4c7DCSV9uXRY+xKzZ4cteOBUz+D11zNsLVQnuzUnO92vb/YlQc8h6qT/Cr/UCv/Ak/pVbL5pkSV+yL5REXPlw/9k\u003d,suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dtrue,is_personal\u003dfalse,suggest_raw_text\u003dmalik nabers,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dMalik Nabers searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: 72ec87aa-27d5-42e0-aaea-02d4dc07a7c8"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 24000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dlilo \u0026 stitch official teaser trailer,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dlilo \u0026 stitch official teaser trailer searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: a90ea102-df3d-4940-8706-40c2238229a8"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 24000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dwhere to watch nebraska cornhuskers football vs iowa hawkeyes football,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dwhere to watch nebraska cornhuskers football vs iowa hawkeyes football searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: 0523649a-9d5b-46b2-aafb-aae0e8c7625b"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 24000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dscurvy resurgence rural canada,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dscurvy resurgence rural canada searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: c14d5bbf-85bf-48e4-8186-73a657586431"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SearchTargetUtil",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 24000000
+        }
+      },
+      "message": "layoutType\u003dshort_icon_row resultType\u003d131072 packageName\u003dcom.google.android.googlequicksearchbox extras\u003dBundle{suggestion_type\u003d33,suggest_truncate_start\u003dfalse,is_answer\u003dfalse,is_entity\u003dfalse,is_personal\u003dfalse,suggest_raw_text\u003dnorwegian cruises cancelled,input_query\u003dandroid.app.search.Query@dfd64d9,group_id\u003dweb6651532,response_id\u003d25aee18e-794a-4daa-ba41-1273ef57b6d9,support_query_builder\u003dfalse,} searchAction\u003dnorwegian cruises cancelled searchActionExtras\u003dBundle{learn_more_url\u003dhttps://support.google.com/websearch/answer/106230?hl\u003d106230,suggestion_action_text\u003dReport this,should_start_for_result\u003dtrue,allow_pinning\u003dtrue,skip_logging_in_target_handler\u003dtrue,suggestion_action_rpc\u003d2,}ParentID: null targetID: f4aa976c-4c3e-47d1-bd72-424eb80fcb6c"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 36000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d352"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 53000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d353"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 69000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d354"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 86000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d355"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 103000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d356"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 119000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d357"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 136000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d358"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 153000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d359"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 169000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d360"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 186000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d361"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 203000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d362"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 425,
+        "tid": 425,
+        "applicationId": "pid-425",
+        "processName": "pid-425",
+        "tag": "SurfaceFlinger",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 220000000
+        }
+      },
+      "message": "Out of order buffers detected for RequestedLayerState{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#852 parentId\u003d198} producedId\u003d34 frameNumber\u003d364 -\u003e producedId\u003d34 frameNumber\u003d363"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 289000000
+        }
+      },
+      "message": "No text view can be set up"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 289000000
+        }
+      },
+      "message": "Passed-in item info is null"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 289000000
+        }
+      },
+      "message": "Passed-in item info is null"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 289000000
+        }
+      },
+      "message": "Passed-in item info is null"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 289000000
+        }
+      },
+      "message": "Secondary card pane is null"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 290000000
+        }
+      },
+      "message": "Transition animation finished (aborted\u003dfalse), notifying core (#114) android.os.BinderProxy@30845b9@1"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 642,
+        "tid": 677,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 291000000
+        }
+      },
+      "message": "Finish Transition (#114): created at 01-22 05:49:21.928 collect-started\u003d0.045ms request-sent\u003d0.141ms started\u003d6.777ms ready\u003d28.013ms sent\u003d30.379ms finished\u003d363.137ms"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 294000000
+        }
+      },
+      "message": "Track 1 became idle"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 933,
+        "tid": 1058,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "WindowManagerShell",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 294000000
+        }
+      },
+      "message": "All active transition animations finished"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "TopTaskTracker",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 297000000
+        }
+      },
+      "message": "onTaskRemoved: taskId\u003d53"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "TopTaskTracker",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 297000000
+        }
+      },
+      "message": "onTaskRemoved: taskId\u003d53"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 796,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "UserManagerService",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 297000000
+        }
+      },
+      "message": "Requested status bar icon for non-badged user 0"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 1925,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "UserManagerService",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 297000000
+        }
+      },
+      "message": "Requested status bar icon for non-badged user 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1636,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 339000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d7.79ms min\u003d1.18ms max\u003d22.81ms count\u003d60"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 680,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "ActivityTaskManager",
+        "timestamp": {
+          "seconds": 1737524962,
+          "nanos": 429000000
+        }
+      },
+      "message": "Activity top resumed state loss timeout for ActivityRecord{6399a9d u0 com.example.deber01_2b_aaza/.MainActivity t-1 f}}"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 376,
+        "tid": 5073,
+        "applicationId": "pid-376",
+        "processName": "pid-376",
+        "tag": "android.hardware.audio@7.1-impl.ranchu",
+        "timestamp": {
+          "seconds": 1737524964,
+          "nanos": 389000000
+        }
+      },
+      "message": "threadLoop: entering standby, frames: 3898304"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 642,
+        "tid": 1544,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "TaskPersister",
+        "timestamp": {
+          "seconds": 1737524965,
+          "nanos": 350000000
+        }
+      },
+      "message": "File error accessing recents directory (directory doesn\u0027t exist?)."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 933,
+        "tid": 933,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "ZenModeController",
+        "timestamp": {
+          "seconds": 1737524967,
+          "nanos": 996000000
+        }
+      },
+      "message": "Added callback class com.android.systemui.qs.tiles.DndTile$3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 933,
+        "tid": 933,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "ZenModeController",
+        "timestamp": {
+          "seconds": 1737524967,
+          "nanos": 999000000
+        }
+      },
+      "message": "Removed callback class com.android.systemui.qs.tiles.DndTile$3"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 914,
+        "tid": 914,
+        "applicationId": "pid-914",
+        "processName": "pid-914",
+        "tag": "wpa_supplicant",
+        "timestamp": {
+          "seconds": 1737524968,
+          "nanos": 449000000
+        }
+      },
+      "message": "wlan0: CTRL-EVENT-BEACON-LOSS "
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 747000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 747000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 747000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 747000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 747000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 747000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 747000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 747000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 749000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 749000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 749000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 749000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 749000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 749000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 749000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1522,
+        "tid": 1922,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "BugleRcsEngine",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 750000000
+        }
+      },
+      "message": "Connected state: [1], networkType: [WIFI] [CONTEXT thread_id\u003d56 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1522,
+        "tid": 2704,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "BugleRcsEngine",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 751000000
+        }
+      },
+      "message": "handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix\u003d\"RcsEngineImpl[DUAL_REG]:[0598367f-0a9a]\u003eHandler\" thread_id\u003d63 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1168,
+        "tid": 1627,
+        "applicationId": "pid-1168",
+        "processName": "pid-1168",
+        "tag": "ChimeraSrvcProxy",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 751000000
+        }
+      },
+      "message": "NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1168,
+        "tid": 1627,
+        "applicationId": "pid-1168",
+        "processName": "pid-1168",
+        "tag": ".gms.persistent",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 751000000
+        }
+      },
+      "message": "Large reply transaction of 1056768 bytes, interface descriptor , code 1"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1522,
+        "tid": 2704,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "BugleRcsEngine",
+        "timestamp": {
+          "seconds": 1737524970,
+          "nanos": 756000000
+        }
+      },
+      "message": "No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix\u003d\"ProvisioningEngineDataRetriever\" thread_id\u003d63 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 914,
+        "tid": 914,
+        "applicationId": "pid-914",
+        "processName": "pid-914",
+        "tag": "wpa_supplicant",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 385000000
+        }
+      },
+      "message": "wlan0: CTRL-EVENT-BEACON-LOSS "
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 757000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 758000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 759000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 759000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1522,
+        "tid": 1922,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "BugleRcsEngine",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 759000000
+        }
+      },
+      "message": "Connected state: [1], networkType: [WIFI] [CONTEXT thread_id\u003d56 ]"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 759000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 759000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 759000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 760000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1522,
+        "tid": 2704,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "BugleRcsEngine",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 760000000
+        }
+      },
+      "message": "handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix\u003d\"RcsEngineImpl[DUAL_REG]:[0598367f-0a9a]\u003eHandler\" thread_id\u003d63 ]"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 760000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 760000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 760000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 760000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 761000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1168,
+        "tid": 1627,
+        "applicationId": "pid-1168",
+        "processName": "pid-1168",
+        "tag": "ChimeraSrvcProxy",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 761000000
+        }
+      },
+      "message": "NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1168,
+        "tid": 1627,
+        "applicationId": "pid-1168",
+        "processName": "pid-1168",
+        "tag": ".gms.persistent",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 761000000
+        }
+      },
+      "message": "Large reply transaction of 1056768 bytes, interface descriptor , code 1"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 761000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 642,
+        "tid": 826,
+        "applicationId": "pid-642",
+        "processName": "pid-642",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 761000000
+        }
+      },
+      "message": "Sending oneway calls to frozen process."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1522,
+        "tid": 2704,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "BugleRcsEngine",
+        "timestamp": {
+          "seconds": 1737524976,
+          "nanos": 764000000
+        }
+      },
+      "message": "No RCS Configuration was found in Bugle for simID: redacted-pii:sim_id[chars:20,last3:897] [CONTEXT log_prefix\u003d\"ProvisioningEngineDataRetriever\" thread_id\u003d63 ]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 933,
+        "tid": 1153,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1737524980,
+          "nanos": 155000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d19999.75ms min\u003d19999.75ms max\u003d19999.75ms count\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 914,
+        "tid": 914,
+        "applicationId": "pid-914",
+        "processName": "pid-914",
+        "tag": "wpa_supplicant",
+        "timestamp": {
+          "seconds": 1737524984,
+          "nanos": 321000000
+        }
+      },
+      "message": "wlan0: CTRL-EVENT-BEACON-LOSS "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 914,
+        "tid": 914,
+        "applicationId": "pid-914",
+        "processName": "pid-914",
+        "tag": "wpa_supplicant",
+        "timestamp": {
+          "seconds": 1737524992,
+          "nanos": 257000000
+        }
+      },
+      "message": "wlan0: CTRL-EVENT-BEACON-LOSS "
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1522,
+        "tid": 1522,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "TimedProcessReaper",
+        "timestamp": {
+          "seconds": 1737524994,
+          "nanos": 933000000
+        }
+      },
+      "message": "Memory state is: 125"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1522,
+        "tid": 1522,
+        "applicationId": "pid-1522",
+        "processName": "pid-1522",
+        "tag": "TimedProcessReaper",
+        "timestamp": {
+          "seconds": 1737524994,
+          "nanos": 933000000
+        }
+      },
+      "message": "Attempted to reap process, but was too important"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 7760,
+        "tid": 7775,
+        "applicationId": "pid-7760",
+        "processName": "pid-7760",
+        "tag": "IPCThreadState",
+        "timestamp": {
+          "seconds": 1737524996,
+          "nanos": 171000000
+        }
+      },
+      "message": "oneway function results for code 2 on binder at 0x7dfb85177a90 will be dropped but finished with status UNKNOWN_TRANSACTION"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 1000000
+        }
+      },
+      "message": "Predicting[0]:  [CONTEXT sampling_count\u003d5 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 1000000
+        }
+      },
+      "message": "EchoTargets: \nFiltered by AiAi flag check: \n[CONTEXT ratelimit_period\u003d\"10 SECONDS\" ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 2000000
+        }
+      },
+      "message": "Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period\u003d\"10 SECONDS\" ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 2000000
+        }
+      },
+      "message": "#remoteViewsTwiddler: feature disabled."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 2000000
+        }
+      },
+      "message": "Predicting[0]:  [CONTEXT sampling_count\u003d5 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 2000000
+        }
+      },
+      "message": "EchoTargets: \nFiltered by AiAi flag check: \n[CONTEXT ratelimit_period\u003d\"10 SECONDS\" ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 2000000
+        }
+      },
+      "message": "Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period\u003d\"10 SECONDS\" ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 2000000
+        }
+      },
+      "message": "#remoteViewsTwiddler: feature disabled."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 3000000
+        }
+      },
+      "message": "#postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types\u003d[])"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1495,
+        "tid": 1789,
+        "applicationId": "pid-1495",
+        "processName": "pid-1495",
+        "tag": "AiAiEcho",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 3000000
+        }
+      },
+      "message": "#postPredictionTargets: Sending updates to UISurface home with targets# 0 (types\u003d[])"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 3000000
+        }
+      },
+      "message": "No text view can be set up"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 4000000
+        }
+      },
+      "message": "Passed-in item info is null"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 4000000
+        }
+      },
+      "message": "Passed-in item info is null"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 4000000
+        }
+      },
+      "message": "Passed-in item info is null"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1207,
+        "tid": 1207,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "SsBaseTemplateCard",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 4000000
+        }
+      },
+      "message": "Secondary card pane is null"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 933,
+        "tid": 933,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "PageIndicator",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 5000000
+        }
+      },
+      "message": "Total number of pages invalid: 0. Assuming 1 page."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 933,
+        "tid": 1153,
+        "applicationId": "pid-933",
+        "processName": "pid-933",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 8000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d19852.53ms min\u003d19852.53ms max\u003d19852.53ms count\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1207,
+        "tid": 1636,
+        "applicationId": "pid-1207",
+        "processName": "pid-1207",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 27000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d2677.13ms min\u003d1.56ms max\u003d37455.66ms count\u003d14"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 914,
+        "tid": 914,
+        "applicationId": "pid-914",
+        "processName": "pid-914",
+        "tag": "wpa_supplicant",
+        "timestamp": {
+          "seconds": 1737525000,
+          "nanos": 449000000
+        }
+      },
+      "message": "wlan0: CTRL-EVENT-BEACON-LOSS "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 914,
+        "tid": 914,
+        "applicationId": "pid-914",
+        "processName": "pid-914",
+        "tag": "wpa_supplicant",
+        "timestamp": {
+          "seconds": 1737525008,
+          "nanos": 385000000
+        }
+      },
+      "message": "wlan0: CTRL-EVENT-BEACON-LOSS "
+    }
+  ]
+}
