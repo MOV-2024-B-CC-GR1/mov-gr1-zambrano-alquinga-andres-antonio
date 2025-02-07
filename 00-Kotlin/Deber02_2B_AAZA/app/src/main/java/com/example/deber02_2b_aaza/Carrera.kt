@@ -1,7 +1,8 @@
-package com.example.deber01_2b_aaza
+package com.example.deber02_2b_aaza
 
 data class Carrera(
-    var id: Int,
-    var nombre: String,
-    var universidadId: Int
+    val id: Int,
+    val nombre: String,
+    val nroEstudiantes: Int,
+    val uniId: Int
 )

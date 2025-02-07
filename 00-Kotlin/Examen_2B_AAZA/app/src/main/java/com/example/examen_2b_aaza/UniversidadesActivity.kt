@@ -1,8 +1,9 @@
-package com.example.deber02_2b_aaza
+package com.example.examen_2b_aaza
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -45,13 +46,14 @@ class UniversidadesActivity : AppCompatActivity() {
     }
 
     private fun onUniversidadClick(universidad: Universidad) {
-        val options = arrayOf("Editar", "Eliminar", "Ver carreras")
+        val options = arrayOf("Editar", "Eliminar", "Ver carreras", "Mapa")
         AlertDialog.Builder(this)
             .setItems(options) { _, which ->
                 when (which) {
                     0 -> editarUniversidad(universidad)
                     1 -> eliminarUniversidad(universidad)
                     2 -> verCarreras(universidad)
+                    3 -> irMapa(universidad)
                 }
             }
             .show()
@@ -78,4 +80,18 @@ class UniversidadesActivity : AppCompatActivity() {
         intent.putExtra("universidadId", universidad.id)
         startActivity(intent)
     }
+
+    private fun irMapa(universidad: Universidad) {
+        try {
+            val intent = Intent(this, GMaps::class.java)
+            intent.putExtra("departamento_id", universidad.id)
+            intent.putExtra("departamento_nombre", universidad.nombre)
+            startActivity(intent)
+        } catch (e: Exception) {
+            e.printStackTrace()
+            Toast.makeText(this, "Error al abrir el mapa: ${e.message}", Toast.LENGTH_LONG).show()
+        }
+    }
+
+
 }

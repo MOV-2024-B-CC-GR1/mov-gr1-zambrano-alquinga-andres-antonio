@@ -1,16 +1,13 @@
-package com.example.deber01_2b_aaza
+package com.example.deber02_2b_aaza
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+
 
 class UniversidadesActivity : AppCompatActivity() {
 
@@ -21,18 +18,18 @@ class UniversidadesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_universidades)
 
-
         recyclerView = findViewById(R.id.recyclerView)
-        adapter = UniversidadAdapter(Repositorio.universidades, ::onUniversidadClick)
+        adapter = UniversidadAdapter(Repositorio.obtenerUniversidades(), ::onUniversidadClick)
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        findViewById<Button>(R.id.btnAgregarUniversidad).setOnClickListener {
-            // Agregar universidad con un diálogo o formulario
-            val id = (Repositorio.universidades.size + 1)
-            val nuevaUniversidad = Universidad(id = id, nombre = "Nueva Universidad xd")
-            println(id)
+        findViewById<Button>(R.id.btnAgregarCarrera).setOnClickListener {
+            val id = (Repositorio.obtenerUniversidades().size + 1)
+            val nombre = "Nueva Universidad"
+            val presupuesto = 500000
+            val nuevaUniversidad = Universidad(id = id, nombre = nombre, presupuestoAnual = presupuesto, esPrivada = false)
             Repositorio.agregarUniversidad(this, nuevaUniversidad)
+            adapter.actualizarDatos(Repositorio.obtenerUniversidades())
             adapter.notifyDataSetChanged()
         }
     }
@@ -42,7 +39,7 @@ class UniversidadesActivity : AppCompatActivity() {
         super.onResume()
 
         // Recargar la lista de universidades desde el repositorio
-        adapter = UniversidadAdapter(Repositorio.universidades, ::onUniversidadClick)
+        adapter = UniversidadAdapter(Repositorio.obtenerUniversidades(), ::onUniversidadClick)
         recyclerView.adapter = adapter // Volver a asignar el adaptador para reflejar los cambios
         adapter.notifyDataSetChanged()
     }
@@ -63,6 +60,9 @@ class UniversidadesActivity : AppCompatActivity() {
     private fun editarUniversidad(universidad: Universidad) {
         val intent = Intent(this, EditarActivity::class.java)
         intent.putExtra("itemId", universidad.id)
+        intent.putExtra("nombre", universidad.nombre)
+        intent.putExtra("presupuestoAnual", universidad.presupuestoAnual)
+        intent.putExtra("esPrivada", universidad.esPrivada)
         intent.putExtra("tipo", "universidad")
         startActivity(intent)
     }
@@ -70,6 +70,7 @@ class UniversidadesActivity : AppCompatActivity() {
     private fun eliminarUniversidad(universidad: Universidad) {
         Repositorio.eliminarUniversidad(this, universidad.id)
         adapter.notifyDataSetChanged()
+        adapter.actualizarDatos(Repositorio.obtenerUniversidades())
     }
 
     private fun verCarreras(universidad: Universidad) {

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.deber02_2b_aaza"
+    namespace = "com.example.examen_2b_aaza"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.deber02_2b_aaza"
+        applicationId = "com.example.examen_2b_aaza"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -36,6 +36,7 @@ android {
     }
     buildFeatures {
         compose = true
+        viewBinding = true
     }
 }
 
@@ -51,6 +52,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
+    //implementation(libs.androidx.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -64,4 +66,5 @@ dependencies {
     implementation("androidx.room:room-ktx:2.3.0")
     implementation("androidx.activity:activity-ktx:1.2.3")
     implementation("androidx.appcompat:appcompat:1.3.1")
+    implementation ("com.google.android.gms:play-services-maps:18.1.0")
 }

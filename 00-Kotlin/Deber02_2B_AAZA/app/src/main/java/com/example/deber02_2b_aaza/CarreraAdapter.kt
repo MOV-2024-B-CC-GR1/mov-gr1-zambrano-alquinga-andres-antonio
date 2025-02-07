@@ -1,4 +1,4 @@
-package com.example.deber01_2b_aaza
+package com.example.deber02_2b_aaza
 
 import android.view.LayoutInflater
 import android.view.View
@@ -31,9 +31,16 @@ class CarreraAdapter(
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val nombre: TextView = itemView.findViewById(R.id.txtNombre)
+        private val uniID: TextView = itemView.findViewById(R.id.txtUniversidadID)
+        private val carreraID: TextView = itemView.findViewById(R.id.txtId)
+        private val nroEstudiantes: TextView = itemView.findViewById(R.id.txtNroEstudiantes)
 
         fun bind(carrera: Carrera) {
             nombre.text = carrera.nombre
+            carreraID.text = "          ID Carrera: " + carrera.id.toString()
+            uniID.text = "          ID Universidad: " + carrera.uniId.toString()
+            nroEstudiantes.text = "         Nro estudiantes: " + carrera.nroEstudiantes.toString()
+
             itemView.setOnClickListener { onItemClick(carrera) }
         }
     }

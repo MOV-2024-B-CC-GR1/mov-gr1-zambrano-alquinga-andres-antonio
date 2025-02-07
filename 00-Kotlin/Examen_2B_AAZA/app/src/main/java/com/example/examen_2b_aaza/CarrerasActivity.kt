@@ -1,4 +1,4 @@
-package com.example.deber02_2b_aaza
+package com.example.examen_2b_aaza
 
 import android.content.Intent
 import android.os.Bundle

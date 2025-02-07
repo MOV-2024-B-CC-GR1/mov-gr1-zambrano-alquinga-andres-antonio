@@ -1,110 +1,128 @@
-package com.example.deber01_2b_aaza
+package com.example.deber02_2b_aaza
 
+import android.content.ContentValues
 import android.content.Context
-import org.json.JSONArray
-import org.json.JSONObject
-import java.io.File
-import java.io.FileWriter
+import android.database.Cursor
 
 object Repositorio {
-    public val universidades = mutableListOf<Universidad>()
-    public val carreras = mutableListOf<Carrera>()
+    private lateinit var dbHelper: DBHelper
 
-    // Se pasa el contexto para acceder al almacenamiento interno
     fun init(context: Context) {
-        cargarDatos(context)
+        dbHelper = DBHelper(context)
     }
 
-    fun agregarUniversidad(context: Context, universidad: Universidad) {
-        universidades.add(universidad)
-        guardarDatos(context)
+    fun agregarUniversidad(context: Context, universidad: Universidad): Long {
+        val db = dbHelper.writableDatabase
+        val values = ContentValues().apply {
+            put(DBHelper.COL_UNI_NOMBRE, universidad.nombre)
+            put(DBHelper.COL_UNI_PRESUPUESTO, universidad.presupuestoAnual)
+            put(DBHelper.COL_UNI_ESPRIVADA, if (universidad.esPrivada) 1 else 0)
+        }
+        return db.insert(DBHelper.TABLE_UNIVERSIDADES, null, values)
+    }
+
+    fun obtenerUniversidades(): List<Universidad> {
+        val universidades = mutableListOf<Universidad>()
+        val db = dbHelper.readableDatabase
+        val cursor = db.query(
+            DBHelper.TABLE_UNIVERSIDADES,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        )
+
+        with(cursor) {
+            while (moveToNext()) {
+                val universidad = Universidad(
+                    getInt(getColumnIndexOrThrow(DBHelper.COL_UNI_ID)),
+                    getString(getColumnIndexOrThrow(DBHelper.COL_UNI_NOMBRE)),
+                    getInt(getColumnIndexOrThrow(DBHelper.COL_UNI_PRESUPUESTO)),
+                    getInt(getColumnIndexOrThrow(DBHelper.COL_UNI_ESPRIVADA)) == 1
+                )
+                universidades.add(universidad)
+            }
+        }
+        cursor.close()
+        return universidades
     }
 
     fun eliminarUniversidad(context: Context, id: Int) {
-        universidades.removeAll { it.id == id }
-        carreras.removeAll { it.universidadId == id }
-        guardarDatos(context)
+        val db = dbHelper.writableDatabase
+        db.delete(DBHelper.TABLE_UNIVERSIDADES, "${DBHelper.COL_UNI_ID} = ?", arrayOf(id.toString()))
     }
 
-    fun obtenerCarrerasDeUniversidad(universidadId: Int): List<Carrera> {
-        return carreras.filter { it.universidadId == universidadId }
+    fun obtenerCarrerasDeUniversidad(uniId: Int): List<Carrera> {
+        val carreras = mutableListOf<Carrera>()
+        val db = dbHelper.readableDatabase
+        val cursor = db.query(
+            DBHelper.TABLE_CARRERAS,
+            null,
+            "${DBHelper.COL_CARR_UNI_ID} = ?",
+            arrayOf(uniId.toString()),
+            null,
+            null,
+            null
+        )
+
+        with(cursor) {
+            while (moveToNext()) {
+                val carrera = Carrera(
+                    getInt(getColumnIndexOrThrow(DBHelper.COL_CARR_ID)),
+                    getString(getColumnIndexOrThrow(DBHelper.COL_CARR_NOMBRE)),
+                    getInt(getColumnIndexOrThrow(DBHelper.COL_CARR_NRO_ESTUDIANTES)),
+                    getInt(getColumnIndexOrThrow(DBHelper.COL_CARR_UNI_ID))
+                )
+                carreras.add(carrera)
+            }
+        }
+        cursor.close()
+        return carreras
     }
 
-    fun agregarCarrera(context: Context, carrera: Carrera) {
-        carreras.add(carrera)
-        guardarDatos(context)
+    fun agregarCarrera(context: Context, carrera: Carrera): Long {
+        val db = dbHelper.writableDatabase
+        val values = ContentValues().apply {
+            put(DBHelper.COL_CARR_NOMBRE, carrera.nombre)
+            put(DBHelper.COL_CARR_NRO_ESTUDIANTES, carrera.nroEstudiantes)
+            put(DBHelper.COL_CARR_UNI_ID, carrera.uniId)
+        }
+        return db.insert(DBHelper.TABLE_CARRERAS, null, values)
     }
 
     fun eliminarCarrera(context: Context, id: Int) {
-        carreras.removeAll { it.id == id }
-        guardarDatos(context)
+        val db = dbHelper.writableDatabase
+        db.delete(DBHelper.TABLE_CARRERAS, "${DBHelper.COL_CARR_ID} = ?", arrayOf(id.toString()))
     }
 
-    fun editarNombreUniversidad(context: Context, id: Int, nuevoNombre: String) {
-        val universidad = universidades.find { it.id == id }
-        universidad?.nombre = nuevoNombre
-        guardarDatos(context)
-    }
-
-    fun editarNombreCarrera(context: Context, id: Int, nuevoNombre: String) {
-        val carrera = carreras.find { it.id == id }
-        carrera?.nombre = nuevoNombre
-        guardarDatos(context)
-    }
-
-    // Guardar los datos en el archivo dentro del almacenamiento interno
-    private fun guardarDatos(context: Context) {
-        val universidadesJson = JSONArray()
-        universidades.forEach { universidad ->
-            val universidadJson = JSONObject()
-            universidadJson.put("id", universidad.id)
-            universidadJson.put("nombre", universidad.nombre)
-            universidadesJson.put(universidadJson)
+    fun editarNombreUniversidad(context: Context, id: Int, nuevoNombre: String, nuevoPresupuesto: Int, nuevaPrivacidad: Boolean) {
+        val db = dbHelper.writableDatabase
+        val values = ContentValues().apply {
+            put(DBHelper.COL_UNI_NOMBRE, nuevoNombre)
+            put(DBHelper.COL_UNI_PRESUPUESTO, nuevoPresupuesto)
+            put(DBHelper.COL_UNI_ESPRIVADA, if (nuevaPrivacidad) 1 else 0)
         }
-
-        val carrerasJson = JSONArray()
-        carreras.forEach { carrera ->
-            val carreraJson = JSONObject()
-            carreraJson.put("id", carrera.id)
-            carreraJson.put("nombre", carrera.nombre)
-            carreraJson.put("universidadId", carrera.universidadId)
-            carrerasJson.put(carreraJson)
-        }
-
-        // Ruta correcta en el almacenamiento interno
-        val file = File(context.filesDir, "data.json")
-        val fileWriter = FileWriter(file)
-        fileWriter.write("{\"universidades\": $universidadesJson, \"carreras\": $carrerasJson}")
-        fileWriter.close()
+        db.update(
+            DBHelper.TABLE_UNIVERSIDADES,
+            values,
+            "${DBHelper.COL_UNI_ID} = ?",
+            arrayOf(id.toString())
+        )
     }
 
-    // Cargar los datos desde el archivo en el almacenamiento interno
-    private fun cargarDatos(context: Context) {
-        val file = File(context.filesDir, "data.json")
-        if (file.exists()) {
-            val jsonString = file.readText()
-            val jsonObject = JSONObject(jsonString)
-            val universidadesJson = jsonObject.getJSONArray("universidades")
-            for (i in 0 until universidadesJson.length()) {
-                val universidadJson = universidadesJson.getJSONObject(i)
-                universidades.add(
-                    Universidad(
-                        universidadJson.getInt("id"),
-                        universidadJson.getString("nombre")
-                    )
-                )
-            }
-            val carrerasJson = jsonObject.getJSONArray("carreras")
-            for (i in 0 until carrerasJson.length()) {
-                val carreraJson = carrerasJson.getJSONObject(i)
-                carreras.add(
-                    Carrera(
-                        carreraJson.getInt("id"),
-                        carreraJson.getString("nombre"),
-                        carreraJson.getInt("universidadId")
-                    )
-                )
-            }
+    fun editarCarrera(context: Context, id: Int, nuevoNombre: String, nuevoNroEstudiantes: Int) {
+        val db = dbHelper.writableDatabase
+        val values = ContentValues().apply {
+            put(DBHelper.COL_CARR_NOMBRE, nuevoNombre)
+            put(DBHelper.COL_CARR_NRO_ESTUDIANTES, nuevoNroEstudiantes)
         }
+        db.update(
+            DBHelper.TABLE_CARRERAS,
+            values,
+            "${DBHelper.COL_CARR_ID} = ?",
+            arrayOf(id.toString())
+        )
     }
 }

@@ -1,6 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permisos necesarios -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,6 +17,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Deber02_2B_AAZA"
         tools:targetApi="31">
+
+        <!-- API Key de Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDAgjJMB8rGiT9CAtP60pL9T8_ok7CxdJU" />
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -21,6 +34,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".GMaps"
+            android:exported="false"
+            android:label="Mapa"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity
+            android:name=".GMapsPlaceholder"
+            android:exported="false"
+            android:label="@string/title_activity_ggoogle_maps_placeholder"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
 
         <!-- La actividad UniversidadesActivity -->
         <activity

@@ -1,16 +1,11 @@
-package com.example.deber01_2b_aaza
+package com.example.deber02_2b_aaza
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import android.content.DialogInterface
 import androidx.appcompat.app.AlertDialog
 
 class CarrerasActivity : AppCompatActivity() {
@@ -32,7 +27,7 @@ class CarrerasActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         findViewById<Button>(R.id.btnAgregarCarrera).setOnClickListener {
-            val nuevaCarrera = Carrera(id = (carreras.size + 1), nombre = "Nueva Carrera", universidadId = universidadId)
+            val nuevaCarrera = Carrera(id = (carreras.size + 1), nombre = "Nueva Carrera", nroEstudiantes = 500,uniId = universidadId)
             Repositorio.agregarCarrera(this, nuevaCarrera)
             // Actualizar los datos del adaptador con la lista actualizada
             adapter_c.actualizarCarreras(Repositorio.obtenerCarrerasDeUniversidad(universidadId))
@@ -60,6 +55,9 @@ class CarrerasActivity : AppCompatActivity() {
     private fun editarCarrera(carrera: Carrera) {
         val intent = Intent(this, EditarActivity::class.java)
         intent.putExtra("itemId", carrera.id)
+        intent.putExtra("nombre", carrera.nombre)
+        intent.putExtra("nroEstudiantes", carrera.nroEstudiantes)
+        intent.putExtra("universidadId", carrera.uniId)
         intent.putExtra("tipo", "carrera")
         startActivity(intent)
     }

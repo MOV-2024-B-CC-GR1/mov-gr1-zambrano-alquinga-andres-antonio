@@ -1,4 +1,4 @@
-package com.example.deber02_2b_aaza
+package com.example.examen_2b_aaza
 
 data class Universidad(
     val id: Int,
