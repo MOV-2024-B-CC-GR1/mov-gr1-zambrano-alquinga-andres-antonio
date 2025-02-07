@@ -1,0 +1,48 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Deber02_2B_AAZA"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Deber02_2B_AAZA">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- La actividad UniversidadesActivity -->
+        <activity
+            android:name=".UniversidadesActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Deber02_2B_AAZA" />
+
+        <!-- La actividad CarrerasActivity -->
+        <activity
+            android:name=".CarrerasActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Deber02_2B_AAZA" />
+
+        <!-- La actividad EditarActivity -->
+        <activity
+            android:name=".EditarActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Deber02_2B_AAZA" />
+
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

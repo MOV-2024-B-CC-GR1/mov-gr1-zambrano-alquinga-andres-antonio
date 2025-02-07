@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rotationX="2">
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="417dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:padding="16dp"
+        android:text="Nombre de la Universidad"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-3dp" />
+
+    <TextView
+        android:id="@+id/txtPresupuesto"
+        android:layout_width="348dp"
+        android:layout_height="49dp"
+        android:padding="16dp"
+        android:text="Presupuesto Universidad: $"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre"
+        tools:layout_editor_absoluteX="47dp" />
+
+    <TextView
+        android:id="@+id/txtEsPrivada"
+        android:layout_width="351dp"
+        android:layout_height="52dp"
+        android:padding="16dp"
+        android:text="Es privada: "
+        android:textColor="#666666"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/txtPresupuesto"
+        tools:layout_editor_absoluteX="44dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
